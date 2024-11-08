@@ -322,3 +322,50 @@ iframe{
         font-size: 10px;
     }
   }
+  .popup{
+    color: #b3b3b3;
+    background-color:  rebeccapurple;
+    width: 650px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:90%;
+    border-radius: 8px;
+    font-size: x-large;
+    display: none;
+height: 650px;
+  }
+  h4{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-size:xx-large;
+    color: #b3b3b3;
+  }
+  .popup button{
+    font-size: medium;
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: black;
+    color: #b3b3b3;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    
+  }
+ 
+  input{
+    text-align: center;
+    width: 100%;
+    outline: none;
+    font-size: x-large;
+  }
+  .btn{
+    padding-left: 20px;
+   width: 100%;
+    color: #b3b3b3;
+    background-color: black;
+  }
+  
