@@ -9,6 +9,7 @@
 </head>
 
 <body>
+   
     <div id="main">
         <div id="nav">
             <div id="nav1">
@@ -110,8 +111,27 @@
                 </div>
             </div>
         </section>
-
+        <div class="popup">
+            <button id="close">&times;</button>
+            <form action="#" method="post">
+            <h4> Register form</h4>
+            <br><br>
+            <label>Name</label><br> <input type="text" placeholder="Username" spellcheck="true" maxlength="20"
+                    name="user" required><br><br>
+                     <label>Email ID</label><br>  <input type="email" placeholder="@gmail.com" spellcheck="true" maxlength="30"
+                    name="id" required><br><br>
+                    <label>Password</label>  <br><input type="password" placeholder="password " maxlength="6" name="pass"required><br><br>
+                 <label>Confirm Password</label> <br><input type="password" placeholder="password" maxlength="6"
+                    name="Cpass"required ><br><br><br>
+                   
+           <input type='submit' value="Register" class='btn' name='Register'> 
+    
+        </div>
+        
+        </form>
+        </div>
     </div>
+    <script src="popup.js"></script>
 </body>
 
 </html>
